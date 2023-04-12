@@ -10,24 +10,24 @@
   <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 </head>
 <body>
-  <header class="navbar-fixed">
+  <header>
     <nav>
-      <div class="nav-wrapper">
+      <div class>
         <ul>
-          <li><a href="/" class="left brand-logo">&nbsp;&nbsp;Quarter Collector</a></li>
+          <li><a href="/">&nbsp;&nbsp;Quarter Collector</a></li>
         </ul>
-        <ul class="right">
+        <ul>
           <li><a href="/about">About</a></li>
           <li><a href="/quarters">View All My Quarters</a></li>
         </ul>
       </div>
     </nav>
   </header>
-  <main class="container">
+  <main>
     {% block content %}
     {% endblock %}
   </main>
-  <footer class="page-footer">
+  <footer>
     <div>All Rights Reserved, &copy; 2023 Quarter Collector &nbsp;</div>
   </footer>
 </body>
