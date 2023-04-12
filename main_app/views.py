@@ -15,3 +15,8 @@ def quarters_index(request):
         'quarters': quarters
     })
 
+def quarters_detail(request, quarter_id):
+    quarter = Quarter.objects.get(id=quarter_id)
+    return render(request, 'quarters/detail.html', {
+        'quarter': quarter
+    })

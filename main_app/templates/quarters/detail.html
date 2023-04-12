@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Quarter Details</h1>
+
+
+<div>
+    <h4>{{ quarter.state_name }}</h4>
+    <p>Release Date: {{ quarter.release_date }}</p>
+    <p>Description: {{ quarter.description }}</p>
+
+    <p>Statehood Date: {{ quarter.statehood_date }}</p>
+
+    <p>Engraver: {{ quarter.engraver }}</p>
+
+</div>
+{% endblock %}
