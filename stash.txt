@@ -1,0 +1,1 @@
+release_date: models.DateTimeField() == need to figure out what paramaters are for showing date ???
